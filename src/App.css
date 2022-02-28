@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Sen:wght@700&display=swap');
+
+.App {
+  text-align: center;
+  max-width: fit-content;
+  /* padding: 0 100px; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo-name {
+  font-family: 'Sen', sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #fb61ee;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mapa-cinza-home {
+  height: 570px;
+  position: absolute;
+}
+
+.padding-principal-tela {
+  justify-content: space-around;
+  align-items: center;
+  padding: 31px 64px 64px 64px;
+  height: 85vh;
+  z-index: 1;
+  background: #ffffff;
+}
+
+.forma-preta-home {
+  position: absolute;
+  width: 520px;
+  top: 0px;
+  right: 0;
+}
+
+.forma-laranja-home{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.detalhes-menina-home {
+  width: 447px;
+  z-index: 33333;
+}
+
+.span-1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 19px;
+  margin: 0px 0px 0px 0px;
+  color: #000000;
+}
+.div-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+.container-principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  height: 70%;
+  width: 100%;
+  z-index: 999;
+  margin: 0px 0px 0px 0px;
+}
+.div-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: end;
+  margin: 0px 0px 0px 0px;
+}
+.div-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.in-love-we-trust {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0px 0px 0px 0px;
+  color: #eb9309;
+}
+.titulo-home {
+  font-family: 'Francois One';
+  line-height: 57px;
+  font-size: 51px;
+  margin: 40px 0px 0px 0px;
+}
+.subtitulo-home {
+  font-size: 18px;
+  line-height: 29px;
+  margin: 35px 0px 0px 0px;
+}
+
+.coracaozinho-branco{
+  margin-left: 5px;
+}
+.img-1 {
+  height: 2px;
+  width: 2px;
+  margin: 0px 0px 0px 0px;
+  background: #e5e5e5;
+}
+.div-7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+}
+.img-2 {
+  height: 6px;
+  width: 5px;
+  margin: 0px 0px 0px 0px;
+}
+.img-3 {
+  height: 4px;
+  width: 2px;
+  margin: 0px 0px 0px 0px;
+  background: #e5e5e5;
+}
+.div-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 16px;
+}
+
+.img-menina-home {
+  width: 400px;
+  z-index: 122222222222;
+  margin: 0px 0px 0px 0px;
+}
+.span-5 {
+  font-size: 96px;
+  font-weight: 400;
+  letter-spacing: -3px;
+  line-height: 93px;
+  margin: 0px 0px 0px 0px;
+  box-shadow: 0px, 4px, 4px,rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+.img-5 {
+  height: 4px;
+  width: 1px;
+  margin: 0px 0px 0px 0px;
+  background: #e5e5e5;
+}
+
+.img-7 {
+  height: 4px;
+  width: 3px;
+  margin: 0px 0px 0px 0px;
+  background: #e5e5e5;
+}
+.img-8 {
+  height: 3px;
+  width: 3px;
+  margin: -1px 0px 0px 0px;
+  background: #e5e5e5;
+}
+.img-9 {
+  height: 3px;
+  width: 2px;
+  margin: -1px 0px 0px 0px;
+  background: #e5e5e5;
+}
+.div-10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  margin: 0px 0px 0px 0px;
+}
+.img-11 {
+  height: 2px;
+  width: 1px;
+  margin: 0px 0px 0px 0px;
+  background: #e5e5e5;
+}
+.img-12 {
+  height: 2px;
+  width: 3px;
+  margin: 0px 0px 0px 0px;
+}
+
+.img-14 {
+  height: 3px;
+  width: 2px;
+  margin: 0px 0px 0px 0px;
+}
+.img-15 {
+  height: 7px;
+  width: 5px;
+  margin: 0px 0px 0px 0px;
+  background: #e5e5e5;
+}
