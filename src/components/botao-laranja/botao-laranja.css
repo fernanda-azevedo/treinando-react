@@ -1,7 +1,6 @@
 .ui-button {
     width: 210px;
-    margin-top: -190px;
-    background-color: #EB9309;
+    top: 355px;    background-color: #EB9309;
     height: 50px;
     border: none;
     color: white;

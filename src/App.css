@@ -71,7 +71,8 @@
 
 .detalhes-menina-home {
   width: 447px;
-  z-index: 33333;
+  position: absolute;
+  z-index: 99999999999999999999;
 }
 
 .span-1 {
@@ -138,6 +139,11 @@
 .coracaozinho-branco{
   margin-left: 5px;
 }
+
+.coracaozinho-laranja {
+  margin-right: 10px;
+}
+
 .img-1 {
   height: 2px;
   width: 2px;
