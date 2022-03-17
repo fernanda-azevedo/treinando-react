@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Sen:wght@700&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
   max-width: fit-content;
@@ -51,22 +55,13 @@
   justify-content: space-around;
   align-items: center;
   padding: 31px 64px 64px 64px;
-  height: 85vh;
+  height: 100vh;
   z-index: 1;
   background: #ffffff;
 }
 
-.forma-preta-home {
-  position: absolute;
-  width: 520px;
-  top: 0px;
-  right: 0;
-}
-
-.forma-laranja-home{
-  position: absolute;
-  right: 0;
-  top: 0;
+.second-body{
+  height: 100vh;
 }
 
 .detalhes-menina-home {
@@ -118,21 +113,24 @@
 }
 
 .in-love-we-trust {
+  display: flex;
   font-size: 22px;
   font-weight: 600;
   line-height: 22px;
   margin: 0px 0px 0px 0px;
   color: #eb9309;
 }
+
 .titulo-home {
   font-family: 'Francois One';
-  line-height: 57px;
-  font-size: 51px;
+  line-height: 130%;
+  font-size: 40px;
   margin: 40px 0px 0px 0px;
 }
+
 .subtitulo-home {
-  font-size: 18px;
-  line-height: 29px;
+  font-size: 16px;
+  line-height: 130%;
   margin: 35px 0px 0px 0px;
 }
 
@@ -179,10 +177,11 @@
   margin: 0px 0px 0px 16px;
 }
 
-.img-menina-home {
-  width: 400px;
-  z-index: 122222222222;
-  margin: 0px 0px 0px 0px;
+.img-poor-man-home {
+  width: 615px;
+  position: absolute;
+  top: 0px;
+  right: 0;
 }
 .span-5 {
   font-size: 96px;
@@ -206,18 +205,7 @@
   margin: 0px 0px 0px 0px;
   background: #e5e5e5;
 }
-.img-8 {
-  height: 3px;
-  width: 3px;
-  margin: -1px 0px 0px 0px;
-  background: #e5e5e5;
-}
-.img-9 {
-  height: 3px;
-  width: 2px;
-  margin: -1px 0px 0px 0px;
-  background: #e5e5e5;
-}
+
 .div-10 {
   display: flex;
   flex-direction: row;
@@ -247,4 +235,12 @@
   width: 5px;
   margin: 0px 0px 0px 0px;
   background: #e5e5e5;
+}
+
+//Segunda dobra da página (Sobre nós)
+.about-us{
+  width: 50% !important;
+  float: right !important;
+  background-color: black;
+  width: 100%;
 }

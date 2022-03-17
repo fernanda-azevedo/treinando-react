@@ -1,12 +1,14 @@
 import React from "react";
 import UIButton from "../botao-laranja/botao-laranja";
-import '../navbar/navbar.css'
+import '../navbar/navbar.css';
+import logoTveste from '../../assets/imgs/logoTveste.svg'
 
 function Navbar(props) {
     return (
         <nav className="nav">
                
         <a href="#" className="nav__brand">
+        <img className="logo-tveste" src={logoTveste.svg}/>
             T-VESTE
         </a>
                
@@ -34,13 +36,13 @@ function Navbar(props) {
                 
                 <li className="nav__item">
                     <a href="#" className="nav__link">
-                        <button>DEPOIMENTOS</button>
+                        <button>Cadastro</button>
                     </a>
                 </li>
 
                 <li className="nav__item">
                     <a href="#" className="nav__link">
-                    <button>DEPOIMENTOS</button>
+                    <button>Login</button>
                     </a>
                 </li>
 

@@ -1,31 +1,31 @@
+//***IMPORTAÇÕES***
+//Tailwind CSS
+import "@material-tailwind/react/tailwind.css";
+
+//Imagens
+import PeopleColaborators from './components/people-colaborators/colaborators.jsx';
+import mapaCinzaDaHome from './assets/imgs/mapaCinzaDaHome.svg';
+import homemHome from "./assets/imgs/homemHome.png"
+import whiteHeart from "./assets/imgs/whiteHeart.svg"
+import coracaozinhoLaranja from "./assets/imgs/coracaozinhoLaranja.svg"
 import logo from './logo.svg';
+
+// Componentes
 import './App.css';
 import React, {useState} from 'react';
 import UIButton from './components/botao-laranja/botao-laranja.js';
 import Navbar from './components/navbar/navbar.jsx';
-// import 'bootstrap/dist/css/bootstrap.css';
-// import ellipse2 from "./assets/imgs/imgss/ellipse2.png";
-// import ellipse3 from "./assets/imgs/imgss/ellipse3.png"
-// import ellipse4 from "./assets/imgs/imgss/ellipse4.png"
-// import ellipse5 from "./assets/imgs/imgss/ellipse5.png"
-// import ellipse6 from "./assets/imgs/ellipse6.png"
-// import group from "./assets/imgs/imgss/group.svg"
-import mapaCinzaDaHome from './assets/imgs/mapaCinzaDaHome.svg';
-// import rectangle320 from "./assets/imgs/imgss/vector320.svg"
-// import vector321 from "./assets/imgs/imgss/vector321.svg"
-// import vector322 from "./assets/imgs/imgss/vector322.svg"
-import vector17 from "./assets/imgs/vector17.svg"
+import GenericCard from './components/card/card.jsx';
 
-import meninaHome from "./assets/imgs/meninaHome.svg"
-import detalhesImgMenina from "./assets/imgs/detalhesImgMenina.png"
-import formaPretaHome from "./assets/imgs/formaPretaHome.svg"
-import whiteHeart from "./assets/imgs/whiteHeart.svg"
-import coracaozinhoLaranja from "./assets/imgs/coracaozinhoLaranja.svg"
-
+// Libs de ícones
+<link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+/>
 
 const App = (props) => {
   return (
-    <div>
+    <div id="root">
     <img className="mapa-cinza-home" src={ mapaCinzaDaHome } />
       {/* Padding principal do respiro da tela */}
       <div className="padding-principal-tela">
@@ -57,30 +57,39 @@ const App = (props) => {
               <img className="img-3" src={vector29} /> */}
               <div className="div-8">
 
-              <img className="forma-preta-home" src={formaPretaHome} />
-              <img className="forma-laranja-home" src={vector17} />
+              {/* <img className="forma-preta-home" src={formaPretaHome} /> */}
+              {/* <img className="forma-laranja-home" src={vector17} /> */}
 
-                <img className="img-menina-home" src={meninaHome} />
-              <img className="detalhes-menina-home" src={detalhesImgMenina} />
+                <img className="img-poor-man-home" src={homemHome} />
               </div>
             </div>
-          </div>
-       
-          <div className="div-10">
           </div>
 
           <UIButton>Conhecer 
             <img className="coracaozinho-branco" src={whiteHeart} />
           </UIButton>
 
-          {/* <div className="div-10">
-            <img className="img-11" src={vector38} />
-            <img className="img-14" src={vector39} />
-          </div> */}
-          {/* <img className="img-15" src={vector41} /> */}
+          <PeopleColaborators>
+          # MAIS DE 1000 PESSOAS COLABORARAM COM ESSA CAUSA
+          </PeopleColaborators>
         </div>
       </div>
+
+
+    <div className="padding-principal-tela">
+      <GenericCard className="w-75">
+        {/* <section className="second-body"></section> */}
+      </GenericCard>
     </div>
+
+
+
+
+
+
+    </div>
+
+    
   )
 }
 
