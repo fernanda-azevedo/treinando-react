@@ -9,6 +9,9 @@ import homemHome from "./assets/imgs/homemHome.png"
 import whiteHeart from "./assets/imgs/whiteHeart.svg"
 import coracaozinhoLaranja from "./assets/imgs/coracaozinhoLaranja.svg"
 import logo from './logo.svg';
+import maeBebe from '../src/assets/imgs/maeBebe.png'
+// import maeBebe from '../../assets/imgs/maeBebe.png'
+
 
 // Componentes
 import './App.css';
@@ -17,15 +20,9 @@ import UIButton from './components/botao-laranja/botao-laranja.js';
 import Navbar from './components/navbar/navbar.jsx';
 import GenericCard from './components/card/card.jsx';
 
-// Libs de ícones
-<link
-    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet"
-/>
-
 const App = (props) => {
   return (
-    <div id="root">
+    <div>
     <img className="mapa-cinza-home" src={ mapaCinzaDaHome } />
       {/* Padding principal do respiro da tela */}
       <div className="padding-principal-tela">
@@ -76,11 +73,10 @@ const App = (props) => {
       </div>
 
 
-    <div className="padding-principal-tela">
-      <GenericCard className="w-75">
-        {/* <section className="second-body"></section> */}
-      </GenericCard>
-    </div>
+    <section className="flex">
+        <img className="w-96" src={ maeBebe } />
+      <GenericCard></GenericCard>
+    </section>
 
 
 

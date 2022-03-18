@@ -10,9 +10,11 @@ import React from 'react';
 
 export default function GenericCard() {
     return (
-        <Card id="root">
+        <Card variant="contained" className="max-w-3xl float-right m-right-30">
 
-            <CardBody style="flex w-64">
+
+            <CardBody>
+
             {/* <CardImage
                 src="https://picsum.photos/seed/2/200/200"
                 alt="Card Image"

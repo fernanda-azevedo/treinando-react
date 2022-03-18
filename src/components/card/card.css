@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#about-us{
-    float: right;
-    width: 20%;
-}
 
 .flex {
   display: flex;
