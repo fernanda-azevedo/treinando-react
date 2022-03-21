@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 
 function PeopleColaborators(props) {
     return (
-        <img className="people-colaborators" src={pessoasONG.png}/>
+        <img className="people-colaborators" src={ pessoasONG }/>
     )
 }
 

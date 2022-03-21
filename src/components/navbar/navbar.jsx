@@ -8,7 +8,7 @@ function Navbar(props) {
         <nav className="nav">
                
         <a href="#" className="nav__brand">
-        <img className="logo-tveste" src={logoTveste.svg}/>
+        <img className="logo-tveste" src={logoTveste.svg} />
             T-VESTE
         </a>
                
