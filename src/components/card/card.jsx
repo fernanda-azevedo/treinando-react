@@ -1,9 +1,7 @@
 import Card from "@material-tailwind/react/Card";
 import coracaozinhoLaranja from "../../assets/imgs/coracaozinhoLaranja.svg"
-import CardImage from "@material-tailwind/react/CardImage";
 import CardBody from "@material-tailwind/react/CardBody";
 import CardFooter from "@material-tailwind/react/CardFooter";
-import H6 from "@material-tailwind/react/Heading6";
 import Paragraph from "@material-tailwind/react/Paragraph";
 import Button from "@material-tailwind/react/Button";
 import React from 'react';
@@ -14,7 +12,7 @@ export default function GenericCard() {
         <Card variant="contained" className="max-w-3xl float-right m-right-30 shadow-none">
             <CardBody>
                 <span className="in-love-we-trust">
-                    <img className="coracaozinho-laranja" src={coracaozinhoLaranja} />
+                    <img className="coracaozinho-laranja" alt="" src={ coracaozinhoLaranja } />
                     SOBRE NÓS
                 </span>
                 <span className="titulo-home">ELES ESTÃO PRECISANDO DA SUA AJUDA!</span>

@@ -12,15 +12,15 @@ import maeBebe from '../src/assets/imgs/maeBebe.png'
 
 // Componentes
 import './App.css';
-import React, { useState } from 'react';
-import UIButton from './components/botao-laranja/botao-laranja.js';
+import React from 'react';
 import Navbar from './components/navbar/navbar.jsx';
 import GenericCard from './components/card/card.jsx';
 import CardsCampanha from "./components/passoapassocamp/dumb-card.jsx";
 import CardsDoar from "./components/passoapassoanuncio/usuariodoar.jsx";
-import Carousel from '../src/components/carrosselcampanhas/carrossel.jsx';
 import Depoimentos from "./components/testimonials/testimonials.jsx";
 import PeopleColaborators from "./components/people-colaborators/colaborators.jsx";
+import Button from "@material-tailwind/react/Button";
+import Campanhas from "./components/campanhas/campanhas.jsx"
 
 const App = (props) => {
   return (
@@ -47,12 +47,12 @@ const App = (props) => {
               </span>
 
             <div>
-              <UIButton>Conhecer
-                <img className="coracaozinho-branco" src={whiteHeart} />
-              </UIButton>
+            <Button color="orange" size="lg" ripple="light">
+              Conhecer
+            </Button>
             </div>
 
-            <div className="py-32">
+            <div className="py-20">
               <PeopleColaborators>
                 # MAIS DE 1000 PESSOAS COLABORARAM COM ESSA CAUSA
               </PeopleColaborators>
@@ -85,13 +85,13 @@ const App = (props) => {
         <CardsDoar></CardsDoar>
       </section>
 
-      {/* <section className="h-screen my-8 padding-principal-tela ">
-    <Carousel></Carousel>
-    </section> */}
+      <section className="h-full padding-principal-tela ">
+        <Campanhas/>
+      </section>
 
-      {/* <section className=" h-screen padding-principal-tela"> */}
+      <section className="padding-principal-tela">
       <Depoimentos></Depoimentos>
-      {/* </section> */}
+      </section>
 
     </div>
 
