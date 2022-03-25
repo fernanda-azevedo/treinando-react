@@ -82,9 +82,7 @@ export default function Campanhas() {
                              2xl:text-[22px]
                              mb-4
                              block
-                             hover:text-primary
-                             "
-                             >
+                             hover:text-primary" >
                              AJUDE O PRÓXIMO NO COMBATE CONTRA O FRIO INTENSO DO INVERNO                          
 
                           </a>
@@ -153,9 +151,7 @@ export default function Campanhas() {
                           text-base text-body-color
                           font-medium
                           hover:border-primary hover:bg-primary hover:text-white
-                          transition
-                          "
-                          >
+                          transition">
                        View Details
                        </a>
                     </div>
