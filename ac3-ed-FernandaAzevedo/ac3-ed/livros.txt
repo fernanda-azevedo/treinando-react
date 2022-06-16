@@ -1,0 +1,5 @@
+00LIVRO25-05-2022 21:06:1101
+0200001Assim falava Zaratustra               nuFilosofia      Nietzsche           0000100
+0200002Segundo sexo                          nuFilosofia      Simone de Beauvoir  0000300
+0200003O mito de sísífo                      nuFilosofia      Camus               0000400
+010000000003
